@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
-import CardEditor from '../components/CardEditor';
-import CardViewer from '../components/CardViewer';
+import CardEditor from './components/CardEditor';
+import CardViewer from './components/CardViewer';
 
 const App: React.FC = () => {
   const [isEditing, setIsEditing] = useState(true);
