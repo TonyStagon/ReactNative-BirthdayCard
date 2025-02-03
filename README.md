@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+🎉 React Native Birthday Card 🎉
+📌 Project Overview
+This project is a React Native Birthday Card application that allows users to create and edit customized birthday cards. Users can:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Add a recipient's name.
+Write a personal message.
+Upload an image.
+Format and decorate the card.
+The app consists of an editor mode for creating/editing cards and a viewer mode to display the final card.
 
-## Get started
+🛠️ Technologies Used
+React Native (with Expo)
+TypeScript
+React Hooks (useState)
+React Native UI Components
+🚀 Features
+✅ Create custom birthday cards
+✅ Edit text (name & message)
+✅ Add an image to the card
+✅ Save and view the final card
+✅ Interactive UI with decorations
 
-1. Install dependencies
+📂 Project Structure
+bash
+Copy
+Edit
+/birthday-card-app
+ ├── /components
+ │   ├── CardEditor.tsx
+ │   ├── CardViewer.tsx
+ ├── /assets
+ │   ├── default-image.png
+ ├── App.tsx
+ ├── package.json
+ ├── README.md
+ ├── .gitignore
+🏗️ Installation & Running the App
+1️⃣ Clone the repository:
 
-   ```bash
-   npm install
-   ```
+sh
+Copy
+Edit
+git clone https://github.com/yourusername/birthday-card-app.git
+2️⃣ Navigate into the project folder:
 
-2. Start the app
+sh
+Copy
+Edit
+cd birthday-card-app
+3️⃣ Install dependencies:
 
-   ```bash
-    npx expo start
-   ```
+sh
+Copy
+Edit
+npm install
+4️⃣ Start the app using Expo:
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+sh
+Copy
+Edit
+npx expo start
+5️⃣ Scan the QR Code with your Expo Go app (on Android/iOS) to preview.

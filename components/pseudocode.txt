@@ -1,0 +1,28 @@
+BEGIN
+
+1. SET isEditing = true (default state)
+2. SET cardData = { readerName: "", message: "", imageUri: null }
+
+3. FUNCTION handleSave(data)
+    a. Update cardData with new values (reader name, message, image)
+    b. Set isEditing = false (switch to view mode)
+
+4. FUNCTION handleEdit()
+    a. Set isEditing = true (switch back to edit mode)
+
+5. RENDER:
+    a. IF isEditing is true:
+        - Show CardEditor component
+    b. ELSE:
+        - Show CardViewer component
+
+6. CardEditor Component:
+    a. User enters name & message
+    b. User selects an image
+    c. On save, call handleSave(data)
+
+7. CardViewer Component:
+    a. Display saved card data
+    b. Show Edit button (calls handleEdit)
+
+END
